@@ -1,0 +1,162 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(155, 99, 245);
+}
+.all{
+    display:flex;
+    grid-template-areas: "one one three"
+                         "two two three" 
+                         "four four four";
+   gap: 30px;                       
+} 
+.one{
+    grid-area:one ;
+    background-color: steelblue;
+}
+.two{
+ grid-area: two;
+ background-color: rgb(94, 21, 19);
+}
+.three{
+    grid-area:three;
+    background-color: rgb(135, 172, 62);
+}
+.four{
+    grid-area:four;
+    background-color: lightslategrey;
+}
+body a{
+    text-decoration: none;
+    align-items: end;
+}
+h1{
+    border: peachpuff;
+  color: azure; 
+ align-items:  center;
+}
+
+           
+.nav1{
+    display: flex;
+    border-radius: 15px;
+    border:1rem rgb(238, 217, 235);
+    list-style: none;
+    gap: 1rem;
+    justify-content: left;
+    padding: 20px;
+    font-size: 23px;
+}
+.nav1 a{
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    gap: 30px;
+    justify-content:left;
+    margin: 20px 20px;
+}
+:target h4{
+    color: palevioletred;
+}
+.container >div{
+    height: 200px;
+    width: 200px;
+    background-color: papayawhip;
+    font-weight: bold;
+    line-height: 1.2;
+    transition: transform 500ms ease;
+    padding: 12px;
+}
+h4{
+    margin-bottom: 1rem;
+  
+    }
+p{
+    letter-spacing: 1.3;
+    margin-top: 1rem;
+  
+}
+.container >div:target{
+    transform: scale(1.2) rotate(1turn);
+} 
+.flex1 >div img{
+border-radius: 50%;
+border:1rem #fff;
+height: 50px;
+width: 50px;
+margin-top:2.5rem;
+}
+.flex1{
+display: flex;
+}
+.nav2{
+    display: flex;
+    border-radius: 15px;
+    border:1rem rgb(238, 217, 235);
+    list-style: none;
+    gap: 1rem;
+    justify-content: left;
+    padding:20px;
+    font-size: 23px;
+}
+.nav2 a{
+    text-decoration: none;
+} 
+.flex2 >div img{
+border-radius: 50%;
+border:1rem #fff;
+height: 50px;
+width: 50px;
+margin-top: 2.5rem;
+}
+.flex2{
+display: flex;
+}
+.nav3{
+    display: flex;
+    border-radius: 15px;
+    border:1rem rgb(238, 217, 235);
+    list-style: none;
+    gap: 1rem;
+    justify-content: left;
+    padding: 20px;
+    font-size: 23px;
+}
+.nav3 a{
+    text-decoration: none;
+}
+
+.flex3 >div img{
+ border-radius: 50%;
+ border:1rem #fff;
+ height: 50px;
+ width: 50px;
+ margin-top: 2.5rem;
+}
+.flex3{
+display: flex;
+}
+.nav4{
+    display: flex;
+    border-radius: 15px;
+    border:1rem rgb(238, 217, 235);
+    list-style: none;
+    gap: 1rem;
+    justify-content: left;
+    padding: 20px;
+    font-size: 23px;
+}
+.nav4 a{
+    text-decoration: none;
+} 
+.flex4 >div img{
+border-radius: 50%;
+border:1rem #fff;
+height: 50px;
+width: 50px;
+margin-top: 2.5rem;
+}
+.flex4{
+display: flex;
+}
